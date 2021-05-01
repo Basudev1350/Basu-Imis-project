@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>welcome to our site</title>
+    <link rel="stylesheet" type="text/css" href="assets/vendor/css/vendor.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body class="sb-nav-fixed">
+ <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">I-mis</a>
+            <button class="btn btn-link btn-sm order-1 order-lg-0" id="sidebarToggle" href="#"><i class="fas fa-bars"></i></button>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+   </nav>
+        <div id="layoutSidenav">
+            <div id="layoutSidenav_nav">
+                <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
+                    <div class="sb-sidenav-menu">
+                        <div class="nav">
+                          <!--   <div class="sb-sidenav-menu-heading">Core</div> -->
+                            <a class="nav-link active" href="#">
+                                <div class="sb-nav-link-icon"><i class="fas fa-home"></i></div>
+                                Home
+                            </a>
+                           <!--  <div class="sb-sidenav-menu-heading">Interface</div> -->
+                            <a class="nav-link collapsed active" href="#" data-toggle="collapse" data-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts">
+                                <div class="sb-nav-link-icon"><i class="fas fa-money-bill-wave"></i></div>
+                                Donor
+                                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                            </a>
+                            <div class="collapse" id="collapseLayouts" aria-labelledby="headingOne" data-parent="#sidenavAccordion">
+                                <nav class="sb-sidenav-menu-nested nav">
+                                    <a class="nav-link" href="layout-static.html"><i class="fas fa-money-bill-wave"></i> Manage Donor</a>
+                                </nav>
+                            </div>
+                            <a class="nav-link collapsed active" href="#" data-toggle="collapse" data-target="#collapsePages" aria-expanded="false" aria-controls="collapsePages">
+                                <div class="sb-nav-link-icon"><i class="fas fa-hand-holding-usd"></i></div>
+                                Donations
+                                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                            </a>
+                            <div class="collapse" id="collapsePages" aria-labelledby="headingTwo" data-parent="#sidenavAccordion">
+                                <nav class="sb-sidenav-menu-nested nav accordion" id="sidenavAccordionPages">
+                                <a class="nav-link" href="layout-static.html"><i class="fas fa-hand-holding-usd"></i> Manage </a>
+                                </nav>
+                            </div>
+                             <a class="nav-link collapsed active" href="#" data-toggle="collapse" data-target="#collapsePages1" aria-expanded="false" aria-controls="collapsePages">
+                                <div class="sb-nav-link-icon"><i class="fas fa-user-friends"></i></div>
+                               Colonies
+                                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                            </a>
+                            <div class="collapse" id="collapsePages1" aria-labelledby="headingTwo" data-parent="#sidenavAccordion">
+                                <nav class="sb-sidenav-menu-nested nav accordion" id="sidenavAccordionPages">
+                                <a class="nav-link" href="layout-static.html"><i class="fas fa-user-friends"></i>Manage Colony</a>
+                                 <a class="nav-link" href="layout-static.html"><i class="fas fa-user-friends"></i>Colony Members</a>
+                                    <a class="nav-link" href="layout-static.html"><i class="fas fa-user-friends"></i>Manage Family</a>
+                                </nav>
+                            </div>
+                             <a class="nav-link collapsed active" href="#" data-toggle="collapse" data-target="#collapsePages2" aria-expanded="false" aria-controls="collapsePages">
+                                <div class="sb-nav-link-icon"><i class="fas fa-people-carry"></i></div>
+                               Partners
+                                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                            </a>
+                            <div class="collapse" id="collapsePages2" aria-labelledby="headingTwo" data-parent="#sidenavAccordion">
+                                <nav class="sb-sidenav-menu-nested nav accordion" id="sidenavAccordionPages">
+                                <a class="nav-link" href="layout-static.html"><i class="fas fa-people-carry"></i>Manage Partners</a></nav>
+                            </div>
+                             <a class="nav-link collapsed active" href="#" data-toggle="collapse" data-target="#collapsePages3" aria-expanded="false" aria-controls="collapsePages">
+                                <div class="sb-nav-link-icon"><i class="fab fa-confluence"></i></div>
+                               Livelihood
+                                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                            </a>
+                            <div class="collapse" id="collapsePages3" aria-labelledby="headingTwo" data-parent="#sidenavAccordion">
+                                <nav class="sb-sidenav-menu-nested nav accordion" id="sidenavAccordionPages">
+                                <a class="nav-link" href="layout-static.html"><i class="fab fa-confluence"></i>Business Proposal</a>
+                                <a class="nav-link" href="layout-static.html"><i class="fab fa-confluence"></i>Field Visit Proposal</a>
+                            </nav>
+                            </div>
+                            <a class="nav-link collapsed active" href="#" data-toggle="collapse" data-target="#collapsePages4" aria-expanded="false" aria-controls="collapsePages">
+                                <div class="sb-nav-link-icon"><i class="fas fa-book-reader"></i></div>
+                               Education
+                                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                            </a>
+                            <div class="collapse" id="collapsePages4" aria-labelledby="headingTwo" data-parent="#sidenavAccordion">
+                                <nav class="sb-sidenav-menu-nested nav accordion" id="sidenavAccordionPages">
+                                <a class="nav-link" href="layout-static.html"><i class="fas fa-book-reader"></i> Learning Centre</a>
+                                <a class="nav-link" href="layout-static.html"><i class="fas fa-book-reader"></i> Scholarships</a>
+                                <a class="nav-link" href="layout-static.html"><i class="fas fa-book-reader"></i> Skill Development</a>
+                            </nav>
+                            </div>
+                             <a class="nav-link collapsed active" href="#" data-toggle="collapse" data-target="#collapsePages5" aria-expanded="false" aria-controls="collapsePages">
+                                <div class="sb-nav-link-icon"><i class="fas fa-chart-bar"></i></div>
+                               C&A
+                                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                            </a>
+                            <div class="collapse" id="collapsePages5" aria-labelledby="headingTwo" data-parent="#sidenavAccordion">
+                                <nav class="sb-sidenav-menu-nested nav accordion" id="sidenavAccordionPages">
+                                <a class="nav-link" href="layout-static.html"><i class="fas fa-chart-bar"></i> Manage Events</a>
+                            </nav>
+                            </div>
+                            <a class="nav-link collapsed active" href="#" data-toggle="collapse" data-target="#collapsePages6" aria-expanded="false" aria-controls="collapsePages">
+                                <div class="sb-nav-link-icon"><i class="fas fa-user-tie"></i></div>
+                               Hr
+                                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                            </a>
+                            <div class="collapse" id="collapsePages6" aria-labelledby="headingTwo" data-parent="#sidenavAccordion">
+                                <nav class="sb-sidenav-menu-nested nav accordion" id="sidenavAccordionPages">
+                                <a class="nav-link" href="layout-static.html"><i class="fas fa-chart-bar"></i> Manage Employee</a>
+                            </nav>
+                            </div>
+                            <!-- <div class="sb-sidenav-menu-heading">Addons</div> -->
+                            
+                            <a class="nav-link active" href="tables.html">
+                                <div class="sb-nav-link-icon"><i class="fas fa-wrench"></i></div>
+                                Site Administration
+                            </a>
+                             <a class="nav-link active" href="tables.html">
+                                <div class="sb-nav-link-icon"><i class="far fa-building"></i></div>
+                                Site Map
+                            </a>
+                             <a class="nav-link active" href="tables.html">
+                                <div class="sb-nav-link-icon"><i class="far fa-question-circle"></i></div>
+                                About Us
+                            </a>
+                             <a class="nav-link active" href="tables.html">
+                                <div class="sb-nav-link-icon"><i class="fas fa-first-aid"></i></div>
+                                Humanitarian Aid
+                            </a>
+                             <a class="nav-link active" href="tables.html">
+                                <div class="sb-nav-link-icon"><i class="far fa-sticky-note"></i></div>
+                              Minutes of The Meeting
+                            </a>
+                        </div>
+                    </div>
+                    <div class="sb-sidenav-footer">
+                        <div class="small">Logged in as:</div>
+                        Start Bootstrap
+                    </div>
+                </nav>
+            </div>
+            <div id="layoutSidenav_content">
+                <main>
+                    <div class="container cc6">
+    <div class="row">
+        <div class="col-12 ">
+            <div class="border12 ">
+                <p class="text-center text1 cc3" >REVIEW BUSINESS PROPOSAL</p>
+            </div>
+        </div>
+    </div>
+</div>
+ <div class="container cc9" >
+    <div class="row">
+        <div class="col-12 ">
+            <div>
+                <p class="text-center text1 cc3" >Proposal Summary</p>
+            </div>
+        </div>
+    </div>
+</div>
+<form class="cc6">
+<div class="container cc6" >
+<div class="row">
+        <div class="col-md-2">
+            <label for="story" class="form-control lab">Colony Id :</label>
+          <input type="text" name=""class="form-control cc77" >
+        </div>
+         <div class="col-md-2 ">
+           <label for="story" class="form-control lab">PSCM:</label>
+          <input type="text" name=""class="form-control cc77" >
+        </div>
+        <div class="col-md-2">
+          <label for="story" class="form-control lab">Proposal Id:</label>
+          <input type="text" name=""class="form-control cc77" >
+        </div>
+         <div class="col-md-2">
+             <label for="story" class="form-control lab">Proposal Title:</label>
+          <input type="text" name=""class="form-control cc77" >
+        </div>
+          <div class="col-md-4 ">
+            <label for="story" class="form-control lab"> Proposal:</label>
+            <input type="file" id="myFile" name="filename" class="form-control" style="background-color:#ccc;color: brown; border: none;">
+        </div>
+    </div>
+    <div class="row cc9">
+        <div class="col-md-2">
+            <label for="story" class="form-control lab"> Prepared By:</label>
+           <input type="text" name=""class="form-control cc77" >
+        </div>
+         <div class="col-md-2"> 
+             <label for="story" class="form-control lab"> Sent on:</label>
+           <input type="text" name=""class="form-control cc77" >
+        </div>
+         <div class="col-md-8"> 
+            <label for="story" class="form-control lab"> Comments:</label>
+           <textarea id="story" name="story"
+          rows="5" cols="33" class="form-control cc77" >It was a dark and stormy night...</textarea>
+        </div>
+       </div>
+        <div class="row">
+        <div class="col-12 ">
+            <div>
+                <p class="text-center text1 cc3" >Review Details</p>
+            </div>
+        </div>
+    </div>
+<table>
+    <thead>
+        <tr class="cc71">
+            <th>Reviewed Date</th>
+            <th>Reviewed By</th>
+            <th>Review Comments</th>
+            <th>Forwarded</th>
+            <th colspan="3">Actions</th>
+        </tr>
+    </thead>
+        <tr>
+            <td><input type="date" id="birthday" name="birthday" class="form-control res cc77" ></td>
+            <td><select class="form-control res cc77" >
+                <option>Reviewed By</option>
+                 <option>Reviewed By</option>
+                  <option>Reviewed By</option>
+            </select></td>
+             <td><textarea id="story" name="story"
+          rows="5" cols="33" class="form-control res cc77" >It was a dark and stormy night...</textarea></td>
+            <td><select class="form-control res cc77" >
+                <option>Returned</option>
+                 <option>Returned</option>
+                  <option>Returned</option>
+            </select></td>
+             <td>
+                <a href="#" class="del_btn">View</a>
+            </td>
+            <td>
+                <a href="#" class="edit_btn" >Edit</a>
+            </td>
+            <td>
+                <a href="#" class="del_btn">Delete</a>
+            </td>
+        </tr>
+         <tr>
+            <td><input type="date" id="birthday" name="birthday" class="form-control res cc77" ></td>
+            <td><select class="form-control res cc77"  >
+                <option>Reviewed By</option>
+                 <option>Reviewed By</option>
+                  <option>Reviewed By</option>
+            </select></td>
+             <td><textarea id="story" name="story"
+          rows="5" cols="33" class="form-control res cc77" >It was a dark and stormy night...</textarea></td>
+            <td><select class="form-control res cc77" >
+                <option>Forwarded</option>
+                 <option>Forwarded</option>
+                  <option>Forwarded</option>
+            </select></td>
+             <td>
+                <a href="#" class="del_btn">View</a>
+            </td>
+            <td>
+                <a href="#" class="edit_btn" >Edit</a>
+            </td>
+            <td>
+                <a href="#" class="del_btn">Delete</a>
+            </td>
+        </tr>
+</table>
+</div>
+<p class="cc2"><input type="submit" name="Save"  value="Save"class="btn cc1" ></p> 
+</form>
+</main>
+</div>
+</div>
+</body>
+         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" crossorigin="anonymous"></script>
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js" crossorigin="anonymous"></script>
+         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script> 
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/all.min.js" crossorigin="anonymous"></script>
+         <script src="assets/vendor/js/scripts.js"></script>
+</html>

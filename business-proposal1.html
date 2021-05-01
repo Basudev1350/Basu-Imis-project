@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>welcome to our site</title>
+    <link rel="stylesheet" type="text/css" href="assets/vendor/css/vendor.css">
+     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body class="sb-nav-fixed">
+ <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">I-mis</a>
+            <button class="btn btn-link btn-sm order-1 order-lg-0" id="sidebarToggle" href="#"><i class="fas fa-bars"></i></button>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+ </nav>
+  <div id="layoutSidenav">
+           <div id="layoutSidenav_nav">
+                <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
+                    <div class="sb-sidenav-menu">
+                        <div class="nav">
+                          <!--   <div class="sb-sidenav-menu-heading">Core</div> -->
+                            <a class="nav-link active" href="#">
+                                <div class="sb-nav-link-icon"><i class="fas fa-home"></i></div>
+                                Home
+                            </a>
+                           <!--  <div class="sb-sidenav-menu-heading">Interface</div> -->
+                            <a class="nav-link collapsed active" href="#" data-toggle="collapse" data-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts">
+                                <div class="sb-nav-link-icon"><i class="fas fa-money-bill-wave"></i></div>
+                                Donor
+                                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                            </a>
+                            <div class="collapse" id="collapseLayouts" aria-labelledby="headingOne" data-parent="#sidenavAccordion">
+                                <nav class="sb-sidenav-menu-nested nav">
+                                    <a class="nav-link" href="layout-static.html"><i class="fas fa-money-bill-wave"></i> Manage Donor</a>
+                                </nav>
+                            </div>
+                            <a class="nav-link collapsed active" href="#" data-toggle="collapse" data-target="#collapsePages" aria-expanded="false" aria-controls="collapsePages">
+                                <div class="sb-nav-link-icon"><i class="fas fa-hand-holding-usd"></i></div>
+                                Donations
+                                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                            </a>
+                            <div class="collapse" id="collapsePages" aria-labelledby="headingTwo" data-parent="#sidenavAccordion">
+                                <nav class="sb-sidenav-menu-nested nav accordion" id="sidenavAccordionPages">
+                                <a class="nav-link" href="layout-static.html"><i class="fas fa-hand-holding-usd"></i> Manage </a>
+                                </nav>
+                            </div>
+                             <a class="nav-link collapsed active" href="#" data-toggle="collapse" data-target="#collapsePages1" aria-expanded="false" aria-controls="collapsePages">
+                                <div class="sb-nav-link-icon"><i class="fas fa-user-friends"></i></div>
+                               Colonies
+                                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                            </a>
+                            <div class="collapse" id="collapsePages1" aria-labelledby="headingTwo" data-parent="#sidenavAccordion">
+                                <nav class="sb-sidenav-menu-nested nav accordion" id="sidenavAccordionPages">
+                                <a class="nav-link" href="layout-static.html"><i class="fas fa-user-friends"></i>Manage Colony</a>
+                                 <a class="nav-link" href="layout-static.html"><i class="fas fa-user-friends"></i>Colony Members</a>
+                                    <a class="nav-link" href="layout-static.html"><i class="fas fa-user-friends"></i>Manage Family</a>
+                                </nav>
+                            </div>
+                             <a class="nav-link collapsed active" href="#" data-toggle="collapse" data-target="#collapsePages2" aria-expanded="false" aria-controls="collapsePages">
+                                <div class="sb-nav-link-icon"><i class="fas fa-people-carry"></i></div>
+                               Partners
+                                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                            </a>
+                            <div class="collapse" id="collapsePages2" aria-labelledby="headingTwo" data-parent="#sidenavAccordion">
+                                <nav class="sb-sidenav-menu-nested nav accordion" id="sidenavAccordionPages">
+                                <a class="nav-link" href="layout-static.html"><i class="fas fa-people-carry"></i>Manage Partners</a></nav>
+                            </div>
+                             <a class="nav-link collapsed active" href="#" data-toggle="collapse" data-target="#collapsePages3" aria-expanded="false" aria-controls="collapsePages">
+                                <div class="sb-nav-link-icon"><i class="fab fa-confluence"></i></div>
+                               Livelihood
+                                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                            </a>
+                            <div class="collapse" id="collapsePages3" aria-labelledby="headingTwo" data-parent="#sidenavAccordion">
+                                <nav class="sb-sidenav-menu-nested nav accordion" id="sidenavAccordionPages">
+                                <a class="nav-link" href="layout-static.html"><i class="fab fa-confluence"></i>Business Proposal</a>
+                                <a class="nav-link" href="layout-static.html"><i class="fab fa-confluence"></i>Field Visit Proposal</a>
+                            </nav>
+                            </div>
+                            <a class="nav-link collapsed active" href="#" data-toggle="collapse" data-target="#collapsePages4" aria-expanded="false" aria-controls="collapsePages">
+                                <div class="sb-nav-link-icon"><i class="fas fa-book-reader"></i></div>
+                               Education
+                                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                            </a>
+                            <div class="collapse" id="collapsePages4" aria-labelledby="headingTwo" data-parent="#sidenavAccordion">
+                                <nav class="sb-sidenav-menu-nested nav accordion" id="sidenavAccordionPages">
+                                <a class="nav-link" href="layout-static.html"><i class="fas fa-book-reader"></i> Learning Centre</a>
+                                <a class="nav-link" href="layout-static.html"><i class="fas fa-book-reader"></i> Scholarships</a>
+                                <a class="nav-link" href="layout-static.html"><i class="fas fa-book-reader"></i> Skill Development</a>
+                            </nav>
+                            </div>
+                             <a class="nav-link collapsed active" href="#" data-toggle="collapse" data-target="#collapsePages5" aria-expanded="false" aria-controls="collapsePages">
+                                <div class="sb-nav-link-icon"><i class="fas fa-chart-bar"></i></div>
+                               C&A
+                                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                            </a>
+                            <div class="collapse" id="collapsePages5" aria-labelledby="headingTwo" data-parent="#sidenavAccordion">
+                                <nav class="sb-sidenav-menu-nested nav accordion" id="sidenavAccordionPages">
+                                <a class="nav-link" href="layout-static.html"><i class="fas fa-chart-bar"></i> Manage Events</a>
+                            </nav>
+                            </div>
+                            <a class="nav-link collapsed active" href="#" data-toggle="collapse" data-target="#collapsePages6" aria-expanded="false" aria-controls="collapsePages">
+                                <div class="sb-nav-link-icon"><i class="fas fa-user-tie"></i></div>
+                               Hr
+                                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                            </a>
+                            <div class="collapse" id="collapsePages6" aria-labelledby="headingTwo" data-parent="#sidenavAccordion">
+                                <nav class="sb-sidenav-menu-nested nav accordion" id="sidenavAccordionPages">
+                                <a class="nav-link" href="layout-static.html"><i class="fas fa-chart-bar"></i> Manage Employee</a>
+                            </nav>
+                            </div>
+                            <!-- <div class="sb-sidenav-menu-heading">Addons</div> -->
+                            
+                            <a class="nav-link active" href="tables.html">
+                                <div class="sb-nav-link-icon"><i class="fas fa-wrench"></i></div>
+                                Site Administration
+                            </a>
+                             <a class="nav-link active" href="tables.html">
+                                <div class="sb-nav-link-icon"><i class="far fa-building"></i></div>
+                                Site Map
+                            </a>
+                             <a class="nav-link active" href="tables.html">
+                                <div class="sb-nav-link-icon"><i class="far fa-question-circle"></i></div>
+                                About Us
+                            </a>
+                             <a class="nav-link active" href="tables.html">
+                                <div class="sb-nav-link-icon"><i class="fas fa-first-aid"></i></div>
+                                Humanitarian Aid
+                            </a>
+                             <a class="nav-link active" href="tables.html">
+                                <div class="sb-nav-link-icon"><i class="far fa-sticky-note"></i></div>
+                              Minutes of The Meeting
+                            </a>
+                        </div>
+                    </div>
+                    <div class="sb-sidenav-footer">
+                        <div class="small">Logged in as:</div>
+                        Start Bootstrap
+                    </div>
+                </nav>
+            </div>
+            <div id="layoutSidenav_content">
+                <main>
+                   <div class="container cc6" >
+    <div class="row">
+        <div class="col-12 ">
+            <div class="border12">
+                <p class="text-center text1">Business Proposal</p>
+            </div>
+        </div>
+        
+    </div>
+</div>
+<div class="container cc6">
+    <div class="row cc9">
+      <div class="col-lg-8">
+         <div class="row">
+        <div class="col-md-4 ">
+            <div class=" ">
+               <select class="form-control cc88">
+                 <option>State</option>
+                 <option>State</option>
+                 <option>State</option>
+               </select>
+            </div>
+        </div>
+        <div class="col-md-4">
+             <select class="form-control cc88">
+                 <option>Colony</option>
+                 <option>Colony</option>
+                 <option>Colony</option>
+               </select>
+        </div>
+         <div class="col-md-4">
+             <select class="form-control cc88">
+                 <option>Pscm</option>
+                 <option>Pscm</option>
+                  <option>Pscm</option>
+               </select>
+        </div>
+      </div>
+      </div>
+      <div class="col-md-4">
+        <ul class="abc">
+  <li class="def"><a href="#home">Submit New Proposal?</a></li>
+  <li class="def"><a href="#home">Click here</a></li>
+</ul>
+      </div>
+    </div>
+  </div>
+  <table class="cc6">
+ 
+  <thead >
+    <tr class="cc7">
+      <th scope="col">Account</th>
+      <th scope="col">Due Date</th>
+      <th scope="col">Amount</th>
+      <th scope="col">Period</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td data-label="Account">Visa - 3412</td>
+      <td data-label="Due Date">04/01/2016</td>
+      <td data-label="Amount">$1,190</td>
+      <td data-label="Period">03/01/2016 - 03/31/2016</td>
+    </tr>
+    <tr>
+      <td scope="row" data-label="Account">Visa - 6076</td>
+      <td data-label="Due Date">03/01/2016</td>
+      <td data-label="Amount">$2,443</td>
+      <td data-label="Period">02/01/2016 - 02/29/2016</td>
+    </tr>
+    <tr>
+      <td scope="row" data-label="Account">Corporate AMEX</td>
+      <td data-label="Due Date">03/01/2016</td>
+      <td data-label="Amount">$1,181</td>
+      <td data-label="Period">02/01/2016 - 02/29/2016</td>
+    </tr>
+    <tr>
+      <td scope="row" data-label="Acount">Visa - 3412</td>
+      <td data-label="Due Date">02/01/2016</td>
+      <td data-label="Amount">$842</td>
+      <td data-label="Period">01/01/2016 - 01/31/2016</td>
+    </tr>
+  </tbody>
+</table>
+      </main>
+      </div>
+      </div>
+</body>
+         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" crossorigin="anonymous"></script>
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js" crossorigin="anonymous"></script>
+         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script> 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/all.min.js" crossorigin="anonymous"></script>
+        <script src="assets/vendor/js/scripts.js"></script>
+</html>
