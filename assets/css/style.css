@@ -136,7 +136,7 @@ height: 100%;
 }
 .border12 {
     border: 1px solid #dee2e6!important;
-    background-color: #888585;
+    background-color: #dedede;
     padding-top: 15px;
 }
 .text1{
@@ -504,8 +504,11 @@ input::placeholder {
  color: brown !important;
 }
 .cc1{
-  background-color: #d39e00fa;width: 15%;
-    border-radius: 30px !important;
+    width: 15%;
+    background: #702e2e;
+    color: #fff;
+    padding: 4px 8px;
+    border-radius: 4px !important;
 }
 .cc2{
   text-align: center; margin-top: 15px;
@@ -526,7 +529,7 @@ input::placeholder {
   margin-top: 35px;
 }
 .cc7{
-  background-color: #888585; color: brown;
+  background-color: #dedede; color: brown;
 }
 .cc8{
   padding-top: 15px;color: brown; font-weight: 700;
@@ -556,7 +559,7 @@ input::placeholder {
 background-color: #4fc3f7 !important; border: none;
 }
 .cc71{
-  background-color: #888585 !important; color: brown !important; 
+  background-color: #dedede !important; color: brown !important; 
 }
 .cc72{
   margin-top: 45px;
@@ -617,7 +620,7 @@ select.form-control.cc88 {
     color: #fff;
 }
 .cc89{
-  background-color: #888585 !important;
+  background-color: #dedede !important;
     color: brown !important;
     font-size: 13px !important;
 }
