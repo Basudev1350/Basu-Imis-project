@@ -2434,7 +2434,7 @@ textarea.form-control {
   }
 }
 .btn:hover {
-  color: #212529;
+  color: #fff;
   text-decoration: none;
 }
 .btn:focus, .btn.focus {
@@ -3157,10 +3157,10 @@ input[type=button].btn-block {
   padding: 0.25rem 1.5rem;
   clear: both;
   font-weight: 400;
-  color: #212529;
+  color: brown;
   text-align: inherit;
   white-space: nowrap;
-  background-color: transparent;
+  background-color: #dedede;
   border: 0;
 }
 .dropdown-item:hover, .dropdown-item:focus {

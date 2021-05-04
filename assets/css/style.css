@@ -145,12 +145,13 @@ height: 100%;
   margin-top:10px;
 }
 .border1{
-	width: 100%;
+	  width: 100%;
     height: 110px;
     padding: 40px;
-    background-color: #888585;
-    color: #fff;
+    background-color: #dedede;
+    color: brown;
     margin-top: 15px;
+    font-weight: 600;
 }
 .border2{
     width: 31%;
@@ -432,10 +433,10 @@ table th {
 }
 .oo{
   padding:10px 28px 10px 28px !important;
-
 }
 .oo:hover{
-  background-color: #888585;
+  background-color: #702e2e;
+  color: #fff;
 }
 .bbb{
   padding: 0px 15px 0px 15px;
@@ -517,8 +518,8 @@ input::placeholder {
   padding-top: 15px;color: brown; font-weight: 700;
 }
 .cc4{
-  background-color: #888585 !important;
-  color: #fff !important;
+  background-color: #dedede !important;
+  color: brown !important;
 }
 .cc5{
   background-color:#ccc !important;
@@ -577,7 +578,8 @@ background-color: #4fc3f7 !important; border: none;
   background-color: #CDC9C9 !important; color: brown; border: none;
 }
 .cc77{
-  background-color: #888585 !important; color: #fff !important; 
+    background-color: #dedede !important;
+    color: brown !important;
 }
 .cc78{
   margin-top: -35px;
@@ -616,8 +618,8 @@ background-color: #4fc3f7 !important; border: none;
     text-decoration: underline;
 }
 select.form-control.cc88 {
-    background-color: #888585;
-    color: #fff;
+  background-color: #dedede !important;
+  color: brown !important;
 }
 .cc89{
   background-color: #dedede !important;
