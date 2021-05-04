@@ -10180,6 +10180,8 @@ body {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
   position: relative;
+  padding: 5px 15px 2px 12px;
+  box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
 }
 .sb-sidenav .sb-sidenav-menu .nav .nav-link .sb-nav-link-icon {
   font-size: 0.9rem;
