@@ -131,13 +131,13 @@ height: 100%;
 }
 .border {
     border: 1px solid #dee2e6!important;
-    background-color: #d39e00fa;
+    background-color: #dedede;
     margin-left: -1px;
 }
 .border12 {
     border: 1px solid #dee2e6!important;
     background-color: #dedede;
-    padding-top: 15px;
+    /* padding-top: 15px; */
 }
 .text1{
 	color: brown;
@@ -651,4 +651,8 @@ select.form-control.cc88 {
   background-color: #fff ;
   color: #702e2e !important;
   width: 16.7%!important;
+}
+.border1:hover{
+  background-color: brown;
+  color: #dedede;
 }
