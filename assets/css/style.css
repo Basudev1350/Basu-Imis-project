@@ -1,5 +1,6 @@
 body{
   background-color: #ccc !important;
+  font-family: Nunito,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
 }
 
 .fa-2x {
@@ -178,6 +179,9 @@ height: 100%;
   cursor: pointer;
 }
 @media only screen and (max-width: 553px) {
+  .sidebar-brand {
+    font-size: 17px !important;
+ }
   .sb-topnav .navbar-brand {
     width: 84px;
     padding-left: 15px;
@@ -185,8 +189,7 @@ height: 100%;
     margin: 0;
 }
   .lll {
-    margin-left: 70px !important;
-    
+    margin-left: 70px !important;  
 }
   .kkk{
   padding-left: 15px !important;
@@ -197,7 +200,6 @@ height: 100%;
 .aa{
 width: 100% !important;  
 }
-
 .uuui {
     height: 40px;
     width: 130px;
@@ -643,4 +645,5 @@ select.form-control.cc88 {
   padding-right: 2.05rem ;
   background-color: #fff ;
   color: #702e2e !important;
+  width: 16.7%!important;
 }
