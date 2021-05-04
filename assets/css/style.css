@@ -180,6 +180,9 @@ height: 100%;
   cursor: pointer;
 }
 @media only screen and (max-width: 553px) {
+  .big{
+    font-size: 15px !important;
+  }
   .sidebar-brand {
     font-size: 17px !important;
  }
@@ -655,4 +658,7 @@ select.form-control.cc88 {
 .border1:hover{
   background-color: brown;
   color: #dedede;
+}
+.big{
+  font-size: 32px;;
 }
