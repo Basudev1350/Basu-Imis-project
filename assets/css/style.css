@@ -391,6 +391,7 @@ table th {
     background-color: #ccc !important;
     border: none !important;
     border-bottom: 2px solid #888585 !important;
+    border-radius: 0px;
 }
 .uu{
   background-color: #4fc3f7 !important;
